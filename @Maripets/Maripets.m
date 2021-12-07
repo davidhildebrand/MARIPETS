@@ -44,8 +44,8 @@ classdef Maripets < handle
         function obj = Maripets()
             obj.eye_num = 2;
             
-            obj.frame_width = 752;
-            obj.frame_height = 480;
+            obj.frame_width = 640;        %ORIGINAL 752; SOC.
+            obj.frame_height = 512;       %ORIGINAL 480; SOC.
             
 %             obj.roi_range.ori_x = [40 300];
 %             obj.roi_range.ori_y = [5 5];
